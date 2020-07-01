@@ -2,6 +2,7 @@
   <table>
     <% if !@orders.empty? %>
       <h1><span>Status: </span><%= @orders.first.status %></h1>
+      <%# Here we are adding a comment to the app > views > admin > orders > _index.html.erb %>
       <% @orders.each do |order| %>
         <tr>
           <td>
