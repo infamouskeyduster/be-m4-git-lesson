@@ -1,6 +1,7 @@
 <div class='admin-form-container'>
   <div class='form'>
     <%= form_for([:admin, current_user]) do |f| %>
+    <%# Here we are adding a comment to the app > views > admin > users > _edit.html.erb %>
       <%= f.label      :email %>
       <%= f.text_field :email %>
       <%= f.label      :first_name %>
