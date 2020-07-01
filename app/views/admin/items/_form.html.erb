@@ -1,6 +1,7 @@
 <div class='form'>
   <%= form_for([:admin, @item]) do |f| %>
     <%= f.label             :title %>
+    <%# Here we are adding a comment to the app > views > admin > items > _form.html.erb %>
     <%= f.text_field        :title %>
     <%= f.label             :description %>
     <%= f.text_area         :description %>
